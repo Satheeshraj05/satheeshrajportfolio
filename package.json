@@ -24,8 +24,9 @@
     "validator": "^13.6.0",
     "web-vitals": "^1.0.1"
   },
+
   "scripts": {
-    "predeploy":"npm run built",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
